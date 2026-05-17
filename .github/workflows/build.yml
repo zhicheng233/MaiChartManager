@@ -126,7 +126,5 @@ jobs:
         # 3. 执行更新脚本
         & "D:\sign\mcm-canary-update.ps1" -Version $version
 
-    - name: Delete wwwroot artifact
-      uses: geekyeggo/delete-artifact@v5
-      with:
+
         name: wwwroot
